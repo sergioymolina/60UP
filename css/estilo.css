@@ -11,6 +11,12 @@ Universidad de Pamplona 2020
 //////////////////// */
 
 
+/*//Por defecto//*/
+
+/*Color principal: #812C31 */
+/*Color secundario: #B4852A */
+
+
 /*//Tipografía//*/
 
 
@@ -107,7 +113,7 @@ body {
   margin-bottom: 40px;
   -webkit-transform: translate3d(20px, 0, 0);
           transform: translate3d(20px, 0, 0);
-  color: #d4a024;
+  color: #B4852A;
   font-weight: 300;
   opacity: 0;
   transition: .2s ease .4s;
@@ -172,7 +178,7 @@ body {
   text-align: center;
   opacity: 1;
   background: transparent;
-  color: #d4a024;
+  color: #B4852A;
   margin: 15px 0 !important;
   position: relative;
 }
@@ -184,13 +190,13 @@ body {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background-color: #d4a024;
+  background-color: #B4852A;
   -webkit-transform: scale(0);
           transform: scale(0);
   transition: .2s;
 }
 .timeline .swiper-pagination-bullet-active {
-  color: #d4a024;
+  color: #B4852A;
 }
 .timeline .swiper-pagination-bullet-active::before {
   -webkit-transform: scale(1);
@@ -289,8 +295,12 @@ body {
 /*//Resaltado//*/
 
 .resaltado {
-  background-color: #812C31;
-  padding: -13px;
+  background-color: #812c31;
+  background-image: linear-gradient(180deg, #812c31 0%, #b4852a 50%);
+  padding: 3px;
   font-weight: 500;
 
 }
+
+
+
