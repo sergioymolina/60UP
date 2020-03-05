@@ -296,7 +296,6 @@ body {
 
 .resaltado {
   background-color: #812c31;
-  background-image: linear-gradient(180deg, #812c31 0%, #b4852a 50%);
   padding: 3px;
   font-weight: 500;
 
