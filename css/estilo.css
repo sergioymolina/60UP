@@ -377,6 +377,7 @@ a:hover {
 #modal .copy, #modal .header, #modal .footer {
   padding: 10px;
   color: #333;
+  width: 80%;
 }
 
 .modal-content {
