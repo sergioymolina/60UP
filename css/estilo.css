@@ -409,3 +409,11 @@ a:hover {
   padding: 5px 10px;
   background-color: #812C31;
 }
+
+
+
+.contenidoinline { display: inline-flex; margin-bottom: 5px;}
+
+.contenidoinline p { width: 100px; border: black 1px solid; margin: 2px; }
+
+

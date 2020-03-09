@@ -8,7 +8,20 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css'>
   <link rel="stylesheet" href="css/estilo.css">
-  <link rel="stylesheet" href="css/hover.css">  
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/perfundo.css">
+  <link rel="stylesheet" href="css/with-icons.css">
+
+<script type="text/javascript">
+  
+  // Initialize a perfundo Lightbox.
+perfundo('.perfundo', {
+  disableHistory: true,
+  swipe: true
+});
+</script>
+
+
 </head>
 <body>
 
@@ -31,22 +44,71 @@
         <div class="swiper-slide" style="background-image: url(img/muebles.jpg);" data-year="1970">
           <div class="swiper-slide-content"><span class="timeline-year">1970</span>
             <h4 class="timeline-title">Las llaves de mi casa</h4>
-            <p class="timeline-text">Corrían los días de febrero, cuando al consultorio de Eduardo Villamizar Lamus llegó Roberto Trujillo Villamizar, un ciudadano pamplonés, y le dijo: "Vengo a entregarte las llaves de nuestra casa porque el padre Faría la compró para la Universidad". <br>Días después Villamizar Lamus recibió tres camiones cargados de pupitres, mesas, escritorios, sillas y muebles comprados por el padre Faría en Palmira, Valle.</p>
+            <p class="timeline-text">Corrían los días de febrero, cuando al consultorio de Eduardo Villamizar Lamus llegó Roberto Trujillo Villamizar, un ciudadano pamplonés, y le dijo: <span class="resaltado">"Vengo a entregarte las llaves de nuestra casa porque el padre Faría la compró para la Universidad"</span>. <br>Días después, Villamizar Lamus recibió tres camiones cargados de pupitres, mesas, escritorios, sillas y muebles comprados por el padre Faría en Palmira, Valle.</p>
+
+          <div class="contenidoinline">
+          <div class="perfundo js-perfundo">
+            <a class="perfundo__link js-perfundo-link" href="#perfundo-img1">
+              <img src="img/villamini.jpg" alt="Sede Villa del Rosario">
+            </a>
+            <div id="perfundo-img1" class="perfundo__overlay fadeIn js-perfundo-overlay">
+              <figure class="perfundo__content perfundo__figure">
+                <img src="img/villamini.jpg" alt="Sede Villa del Rosario">
+                <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(img/villa.jpg);"></div>
+                <figcaption class="perfundo__figcaption">Sede Villa del Rosario</figcaption>
+              </figure>
+              <a href="#perfundo-untarget" class="perfundo__close perfundo__control js-perfundo-close"></a>
+              <a class="perfundo__next perfundo__control js-perfundo-next" href="#perfundo-img2"></a>
+            </div>
+          </div>
+
+          <div class="perfundo js-perfundo">
+            <a class="perfundo__link js-perfundo-link" href="#perfundo-img2">
+              <img src="img/fariamini.jpg" alt="Demo image">
+            </a>
+            <div id="perfundo-img2" class="perfundo__overlay fadeIn js-perfundo-overlay">
+              <figure class="perfundo__content perfundo__figure">
+                <img src="img/fariamini.jpg" alt="Padre Faria">
+                <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(img/faria.jpg);"></div>
+              </figure>
+              <a href="#perfundo-untarget" class="perfundo__close perfundo__control js-perfundo-close"></a>
+              <a class="perfundo__next perfundo__control js-perfundo-next" href="#perfundo-img3"></a>
+              <a class="perfundo__prev perfundo__control js-perfundo-prev" href="#perfundo-img1"></a>
+            </div>
+          </div>
+
+          <div class="perfundo js-perfundo">
+            <a class="perfundo__link js-perfundo-link" href="#perfundo-img3">
+              <img src="img/ivaldomini.jpg" alt="Demo image">
+            </a>
+            <div id="perfundo-img3" class="perfundo__overlay fadeIn js-perfundo-overlay">
+              <figure class="perfundo__content perfundo__figure">
+                <img src="img/ivaldomini.jpg" alt="El rector PHD Ivaldo Torres Chávez">
+                <div class="perfundo__image" style="width: 800px; padding-top: 66.25%; background-image: url(img/ivaldo.jpg);"></div>
+              </figure>
+              <a href="#perfundo-untarget" class="perfundo__close perfundo__control js-perfundo-close"></a>
+              <a class="perfundo__prev perfundo__control js-perfundo-prev" href="#perfundo-img2"></a>
+            </div>
+          </div>
+          </div>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url(img/cd.jpg);" data-year="2005">
-          <div class="swiper-slide-content"><span class="timeline-year">2005</span>
-            <h4 class="timeline-title">Your Event Title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="swiper-slide" style="background-image: url(img/cd.jpg);" data-year="1970">
+          <div class="swiper-slide-content"><span class="timeline-year">5 de Agosto de 1970</span>
+            <h4 class="timeline-title">Unipamplona universidad pública</h4>
+            <p class="timeline-text">En el transcurso de ese año, el padre Faría y su equipo de trabajo lograría que el Ministerio de Educación le otorgara el título de universidad pública a la recién fundada Universidad de Pamplona gracias al <span class="resaltado">Decreto Nº 0553</span>.<br> En el año siguiente, en 1971, con el <span class="resaltado2">Decreto No. 1550 del 13 de Agosto</span> se le permite otorgar títulos profesionales a sus graduados.</p>
           </div>
         </div>
-        <div class="swiper-slide" style="background-image: url(img/villa.jpg);" data-year="2009">
-          <div class="swiper-slide-content"><span class="timeline-year">2009</span>
-            <h4 class="timeline-title">Your Event Title</h4>
-            <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="swiper-slide" style="background-image: url(img/faria.jpg);" data-year="1974">
+          <div class="swiper-slide-content"><span class="timeline-year">11 de diciembre de 1974</span>
+            <h4 class="timeline-title">El fin de una era</h4>
+            <p class="timeline-text">Luego de 14 años de entrega y dedicación por el alma máter que ayudó a fundar, el padre Faría presentaría su renuncia ante el HCSU, donde, en un solemne acto de despedida, le otorgó el título <b>Doctor Honoris Causa</b>, como también el título de <b>Rector honorario</b>.</p>
           </div>
+
         </div>
-        <div class="swiper-slide" style="background-image: url(img/ivaldo.jpg);" data-year="2012">
+        <div class="swiper-slide" style="background-image: url(img/ivaldo.jpg);" data-year="1979">
           <div class="swiper-slide-content"><span class="timeline-year">2012</span>
             <h4 class="timeline-title">Your Event Title</h4>
             <p class="timeline-text">Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -68,6 +130,9 @@
       </div>
 
 
+
+
+
       <div class="swiper-button-prev" title="Anterior"></div>
       <div class="swiper-button-next" title="Siguiente"></div>
       <div class="swiper-pagination"></div>
@@ -79,5 +144,6 @@
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js'></script>
 <script  src="js/funcion.js"></script>
+<script  src="js/perfundo.js"></script>
 </body>
 </html>
