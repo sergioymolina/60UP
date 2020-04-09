@@ -182,7 +182,7 @@ a:hover {
   justify-content: center;
   font-style: italic;
   font-weight: 200;
-  font-size: 15px;
+  font-size: 14px;
   z-index: 1;
 }
 
@@ -281,7 +281,7 @@ a:hover {
     display: flex;
   }
   .timeline .swiper-button-prev {
-    top: 15%;
+    top: 2%;
     left: auto;
     right: 15%;
     -webkit-transform: rotate(90deg) translate(0, 10px);
@@ -293,7 +293,7 @@ a:hover {
   }
   .timeline .swiper-button-next {
     top: auto;
-    bottom: 15%;
+    bottom: 2%;
     right: 15%;
     -webkit-transform: rotate(90deg) translate(0, 10px);
             transform: rotate(90deg) translate(0, 10px);
