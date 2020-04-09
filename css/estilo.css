@@ -183,7 +183,7 @@ a:hover {
   justify-content: center;
   font-style: italic;
   font-weight: 200;
-  font-size: 18px;
+  font-size: 15px;
   z-index: 1;
 }
 
@@ -203,6 +203,7 @@ a:hover {
   opacity: 1;
   background: transparent;
   color: #B4852A;
+    line-height: 5px;
   margin: 15px 0 !important;
   position: relative;
 }
