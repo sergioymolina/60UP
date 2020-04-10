@@ -202,7 +202,7 @@ a:hover {
   opacity: 1;
   background: transparent;
   color: #B4852A;
-    line-height: 5px;
+    line-height: 1px;
   margin: 15px 0 !important;
   position: relative;
 }
